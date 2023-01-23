@@ -1,0 +1,28 @@
+.navbar-brand {
+    background: rgb(143, 224, 62);
+    border-radius: 2rem;
+    width: 8rem;
+    text-align: center;
+    font-family: poppins;
+    font-weight: bolder;
+    color: white;
+    margin-right: 10rem;
+}
+
+.nav-link {
+    margin-right: 10rem;
+    font-weight: bolder;
+    color: rgb(42, 181, 236);
+}
+
+#drop {
+    margin-right: 3rem;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    color: black;
+}
+
+.card {
+    margin-bottom: 3rem;
+}

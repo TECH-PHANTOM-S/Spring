@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    background-image: linear-gradient(to right, #4e65ff, #0093ff, #00b7ff, #20d5ff, #92effd);
+}
+
+.f {
+    visibility: hidden;
+}
+
+a {
+    color: white;
+    /* color: #D1FF19; */
+}
+
+.signup h2 {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    /* color: white; */
+    color: #D1FF19;
+}
+
+.inf {
+    font-size: 25px;
+    font-family: Verdana,sans-serif;
+    text-align: center;
+}
+
+body, input {
+    font-family: 'Poppins',Verdana,sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    /* min-height: 100vh; */
+    /* overflow: hidden; */
+}
+
+.forms-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    form h2 {
+        margin-top: 10%;
+        font-size: 2.2rem;
+        color: white;
+        /* color: #D1FF19; */
+        margin-bottom: 10px;
+    }
+
+.inputfield {
+    max-width: 380px;
+    width: 100%;
+    height: 55px;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 0.4rem;
+    position: relative;
+}
+
+    .inputfield span {
+        text-align: center;
+        line-height: 55px;
+        /* color: #acacac; */
+        font-size: 1.5rem;
+    }
+
+    .inputfield input {
+        background: none;
+        outline: none;
+        border: none;
+        line-height: 1;
+        font-weight: 400;
+        font-size: 1.2rem;
+        /* color: #333; */
+    }
+
+        .inputfield input:placeholder-shown {
+            color: #aaa;
+            font-weight: 400;
+        }
+
+.btn {
+    width: 150px;
+    height: 49px;
+    outline: none;
+    border: none;
+    border-radius: 48px;
+    background-color: #D1FF19;
+    text-transform: uppercase;
+    font-weight: 1000;
+    margin: 10px 0;
+    transition: all 0.5s;
+}
+button {
+    background-color: #FFBABA;
+    font-size: 1.5rem;
+    font-weight:200;
+    border: none;
+    float: right;
+}
+#errorMess {
+    margin: 10px auto;
+    padding: 5px 5px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width:100%;
+    text-align:center;
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+#successMess {
+    border: 1px solid;
+    margin: 10px auto;
+    padding: 15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    max-width: 80%;
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+    .btn:hover {
+        background-color: yellow;
+    }
+form{
+    margin-bottom: 2%;
+}
+.tex {
+    padding: 0.7rem 0;
+}

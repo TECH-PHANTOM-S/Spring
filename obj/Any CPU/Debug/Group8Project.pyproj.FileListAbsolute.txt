@@ -1,0 +1,2 @@
+C:\Users\HP\source\repos\Group8Project\Group8Project\obj\Any CPU\Debug\Group8Project.pyproj.SuggestedBindingRedirects.cache
+C:\Users\HP\source\repos\Group8Project\Group8Project\obj\Any CPU\Debug\Group8Project.pyproj.CoreCompileInputs.cache

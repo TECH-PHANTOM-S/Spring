@@ -1,0 +1,91 @@
+{% extends "base.html" %}{% block title %}Home{% endblock %}
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/home.css" />
+</head>
+<body class="bod">
+    <header>
+        <nav class="nav">
+            <a><label for="tit">Spring</label></a>
+            <a class="log" id="login" href="/login">Login</a>
+        </nav>
+    </header>
+    <div class="div">
+        <center>
+            <h3>
+                Welcome to <span>Spring.</span><br>
+                Reach Out to any local<br>
+                service of your choice.
+            </h3>
+        </center>
+    </div>
+    <div class="Mdiv1">
+        <div class="d1">
+            <p>
+                Spring is a platform designed to provide<br>
+                users the opportunity to request and order<br>
+                for services of local and professional service<br>
+                providers registered on the app.
+            </p>
+            <br>
+            <br>
+            <div class="divv1">
+                <center>
+                    <a class="Create" id="signup" href="/signup">Create Account</a>
+                    <a class="SignIn" id="login" href="/login">Sign In</a>
+                </center>
+
+            </div>
+        </div>
+        <div class="d2">
+            <center>
+                <img src="static/All.png" />
+            </center>
+        </div>
+    </div>
+    <footer class="foot">
+        <a class="b">
+            <div>
+                <img src="static/Untitled2.png" />
+            </div>
+            <span>
+                Want to know more about us?
+            </span>
+            <p>
+                Then Sign Up now!!
+            </p>
+        </a>
+        <a class="b">
+            <div>
+                <img src="static/Untitled3.png" />
+            </div>
+            <span>
+                Bookings?
+            </span>
+            <center>
+                <p>
+                    Just book or order any service
+                    of your choice and we will
+                    reach out to you.
+                </p>
+            </center>
+        </a>
+        <a class="b">
+            <div>
+                <img src="static/Untitled1.png" />
+            </div>
+            <span>
+                Spring?
+            </span>
+            <p>
+                Our Services, the best!!
+            </p>
+        </a>
+    </footer>
+</body>
+</html>
+{% endblock %}
